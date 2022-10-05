@@ -20,3 +20,7 @@ while(True):
         print('Human wins!')
     else:
         print('Computer wins!')
+
+        print(f'You have played {len(human_turns)} times')
+        print(human_turns)
+        print(computer_turns)
